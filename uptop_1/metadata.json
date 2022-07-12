@@ -1,0 +1,12 @@
+{
+    "name": "Messy JSON Processing",
+    "company": "UpStop",
+    "position": "Data Scientist",
+    "description": "Create a functon to parse messy json files",
+    "time_to_complete_min": 45,
+    "tags": [
+		"algorithms",
+		"data-cleaning",
+		"data-modeling"
+    ]
+}
