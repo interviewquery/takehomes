@@ -1,0 +1,13 @@
+{
+    "name": "Movie Revenue Prediction",
+    "company": "Capgemini",
+    "position": "Data Scientist",
+    "description": "Create forecast the revenue of new movies",
+    "time_to_complete_min": 360,
+    "tags": [
+        "machine-learning",
+        "regression",
+        "python",
+        "pandas"
+    ]
+}
