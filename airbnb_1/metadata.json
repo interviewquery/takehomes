@@ -1,0 +1,14 @@
+{
+    "name": "Rio de Janeiro Booking Growth",
+    "company": "Airbnb",
+    "position": "Data Scientist",
+    "description": "Help a cross-functional team grow bookings in Rio de Janeiro",
+    "time_to_complete_min": 360,
+    "tags": [
+        "analytics",
+        "presentation",
+        "data-visualization",
+        "eda",
+        "growth"
+    ]
+}
