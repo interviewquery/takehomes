@@ -1,0 +1,13 @@
+{
+    "name": "Spam Article Classifier",
+    "company": "Capgemini",
+    "position": "Data Scientist",
+    "description": "Create a model to predict if an article is spam or not",
+    "time_to_complete_min": 360,
+    "tags": [
+        "machine-learning",
+        "classification",
+        "python",
+        "pandas"
+    ]
+}
