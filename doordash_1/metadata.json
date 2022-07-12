@@ -1,0 +1,12 @@
+{
+    "name": "Delivery Time Estimator",
+    "company": "DoorDash",
+    "position": "Data Scientist",
+    "description": "Create a model to predict how long it will take a driver to deliver an order",
+    "time_to_complete_min": 330,
+    "tags": [
+        "machine-learning",
+        "regression",
+        "python",
+    ]
+}
