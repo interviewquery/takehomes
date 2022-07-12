@@ -1,0 +1,17 @@
+{
+    "name": "Evaluate e-commerce Startup",
+    "company": "Goodwater Capital",
+    "position": "Data Scientist",
+    "description": "Analyze the business prospects for a new e-commerce startup and see if they are worth investing in",
+    "time_to_complete_min": 360,
+    "tags": [
+        "analytics",
+        "time-series",
+        "regression",
+		"business-case",
+		"eda",
+        "python",
+		"marketing-analytics",
+        "pandas"
+    ]
+}
