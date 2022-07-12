@@ -1,0 +1,10 @@
+{
+    "name": "Promotion Predictor",
+    "company": "Starbucks",
+    "position": "Data Scientist",
+    "description": "Create a model to determine if a promotion should be given to a user",
+    "time_to_complete_min": 390,
+    "tags": [
+		"machine-learning"
+    ]
+}
