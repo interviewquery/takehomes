@@ -1,0 +1,10 @@
+{
+    "name": "Trucking in High Winds",
+    "company": "Ike",
+    "position": "Data Scientist",
+    "description": "Create a model to predict the frequency of high winds that can help estimate how long it takes trucks to flip over in high winds",
+    "time_to_complete_min": 360,
+    "tags": [
+		"python"
+    ]
+}
