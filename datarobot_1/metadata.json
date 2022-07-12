@@ -1,0 +1,13 @@
+{
+    "name": "Loan Default Classification Model",
+    "company": "DataRobot",
+    "position": "Data Scientist",
+    "description": "Create a model to predict whether or not a debtor will default on a loan",
+    "time_to_complete_min": 360,
+    "tags": [
+        "machine-learning",
+        "classification",
+        "python",
+        "pandas"
+    ]
+}
