@@ -1,0 +1,14 @@
+{
+    "name": "Sale Forecasting",
+    "company": "Capgemini",
+    "position": "Data Scientist",
+    "description": "Create a model to forecast revenue from sales in the future",
+    "time_to_complete_min": 360,
+    "tags": [
+        "machine-learning",
+        "time-series",
+        "regression",
+        "python",
+        "pandas"
+    ]
+}
