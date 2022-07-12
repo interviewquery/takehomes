@@ -1,0 +1,10 @@
+{
+    "name": "Predicting User Adoption",
+    "company": "Relax",
+    "position": "Data Scientist",
+    "description": "Identify which features are most important for getting a user to adopt our product",
+    "time_to_complete_min": 720,
+    "tags": [
+		"analytics"
+    ]
+}
