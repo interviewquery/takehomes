@@ -1,0 +1,12 @@
+{
+    "name": "Rental Price Analysis",
+    "company": "Wanderjaunt",
+    "position": "Data Scientist",
+    "description": "Conduct analysis the prices of short-term rentals in Phoenix, Arizona",
+    "time_to_complete_min": 200,
+    "tags": [
+		"business-case",
+		"pandas",
+		"analytics"
+    ]
+}
