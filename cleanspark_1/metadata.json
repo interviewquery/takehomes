@@ -1,0 +1,14 @@
+{
+    "name": "Electricity Pricing Model",
+    "company": "ClearSpark",
+    "position": "Data Scientist",
+    "description": "Create a model to price daily electricity costs for households",
+    "time_to_complete_min": 360,
+    "tags": [
+        "machine-learning",
+        "time-series",
+        "regression",
+        "python",
+        "pandas"
+    ]
+}
