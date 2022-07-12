@@ -1,0 +1,17 @@
+{
+    "name": "4 Short DS exercises",
+    "company": "Hooper",
+    "position": "Data Scientist",
+    "description": "Complete four short data science questions covering the full breath of the job",
+    "time_to_complete_min": 60,
+    "tags": [
+        "analytics",
+        "ab-testing",
+		"business-case",
+        "python",
+		"r",
+		"marketing-analytics",
+        "machine-learning",
+		"ml-system-design"
+    ]
+}

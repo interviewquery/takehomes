@@ -1,0 +1,9 @@
+device_type,variant,discount,total_views,price_freezes
+android,Challenger,FALSE,6010,189
+android,Challenger,TRUE,331,16
+android,Champion,FALSE,1084,23
+android,Champion,TRUE,54,3
+iOS,Challenger,FALSE,6905,336
+iOS,Challenger,TRUE,1986,196
+iOS,Champion,FALSE,6576,266
+iOS,Champion,TRUE,2054,161
