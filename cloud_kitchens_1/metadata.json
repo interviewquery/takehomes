@@ -1,0 +1,10 @@
+{
+    "name": "Food Shelf Value Predictor",
+    "company": "Cloud Kitchens",
+    "position": "Data Scientist",
+    "description": "Create a model to price daily estimate the shelf value of different food items",
+    "time_to_complete_min": 360,
+    "tags": [
+        "machine-learning"
+    ]
+}
