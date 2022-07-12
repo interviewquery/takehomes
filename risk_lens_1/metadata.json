@@ -1,0 +1,12 @@
+{
+    "name": "Healthcare Cyber Attack Analysis",
+    "company": "RiskLens",
+    "position": "Data Scientist",
+    "description": "Perform analysis and modeling to access the risk of cyber attacks on healthcare facilities",
+    "time_to_complete_min": 390,
+    "tags": [
+		"machine-learning",
+		"statistics",
+		"eda"
+    ]
+}
