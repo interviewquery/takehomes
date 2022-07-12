@@ -1,0 +1,13 @@
+{
+    "name": "2 Short DS exercises",
+    "company": "Integris",
+    "position": "Data Scientist",
+    "description": "Complete two short data science questions covering the EDA and Error Analysis",
+    "time_to_complete_min": 90,
+    "tags": [
+        "analytics",
+		"eda",
+		"pandas",
+		"statistics"
+    ]
+}
