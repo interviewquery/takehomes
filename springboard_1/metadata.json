@@ -1,0 +1,11 @@
+{
+    "name": "Priceing Options for Courses",
+    "company": "Springboard",
+    "position": "Growth Analyst",
+    "description": "Analyze which pricing method is best for e-learning course",
+    "time_to_complete_min": 330,
+    "tags": [
+		"analytics",
+		"marketing-analytics"
+    ]
+}
