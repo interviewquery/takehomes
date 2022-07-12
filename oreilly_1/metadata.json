@@ -1,0 +1,10 @@
+{
+    "name": "Click-Through Prediction",
+    "company": "O'Reilly",
+    "position": "Data Scientist",
+    "description": "Create a model to predict if a user will click on a link",
+    "time_to_complete_min": 330,
+    "tags": [
+		"machine-learning"
+    ]
+}
