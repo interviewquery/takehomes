@@ -1,0 +1,12 @@
+{
+    "name": "Credit Card Fraud Detection",
+    "company": "FlowCast",
+    "position": "Data Scientist",
+    "description": "Create a model to detect if a transaction on a credit card was fraudulent or not",
+    "time_to_complete_min": 90,
+    "tags": [
+        "machine-learning",
+        "classification",
+        "python",
+    ]
+}
