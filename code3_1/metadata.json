@@ -1,0 +1,10 @@
+{
+    "name": "Grouping By in Pandas",
+    "company": "Code3",
+    "position": "Data Scientist",
+    "description": "Create tables that grouped by a complicated key",
+    "time_to_complete_min": 120,
+    "tags": [
+        "pandas"
+    ]
+}
