@@ -1,0 +1,12 @@
+{
+    "name": "Building Permit Classifier",
+    "company": "Buildzoom",
+    "position": "Data Scientist",
+    "description": "Create a model predict if a permit is about electrical permissions",
+    "time_to_complete_min": 360,
+    "tags": [
+        "machine-learning",
+        "classification",
+        "python"
+    ]
+}
