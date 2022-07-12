@@ -1,0 +1,13 @@
+{
+    "name": "Best State for Growth",
+    "company": "Grubhub",
+    "position": "Data Scientist",
+    "description": "Find what state Grubhub should focus on for new product development",
+    "time_to_complete_min": 180,
+    "tags": [
+        "analytics",
+		"business-case",
+		"eda",
+		"marketing-analytics",
+    ]
+}
