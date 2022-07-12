@@ -1,0 +1,13 @@
+{
+    "name": "Messy Product Data Analysis",
+    "company": "SkilledUp",
+    "position": "Data Scientist",
+    "description": "Perform analysis on a data set of product details that is formatted in an inconvenient manner. Provide suggestions to improve the data model.",
+    "time_to_complete_min": 120,
+    "tags": [
+		"analytics",
+		"data-cleanings",
+		"business-case",
+		"data-modeling"
+    ]
+}
