@@ -1,0 +1,15 @@
+{
+    "name": "Vertical Acceleration Predictor",
+    "company": "ClearMotion",
+    "position": "Data Scientist",
+    "description": "Create a model to estimate the acceleration of a car",
+    "time_to_complete_min": 360,
+    "tags": [
+        "machine-learning",
+        "time-series",
+        "regression",
+        "deep-learning",
+        "python",
+        "pandas"
+    ]
+}
