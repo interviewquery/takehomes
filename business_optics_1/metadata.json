@@ -1,0 +1,13 @@
+{
+    "name": "Loan Default Model",
+    "company": "BusinessOptics",
+    "position": "Data Scientist",
+    "description": "Create a model to predict the probability of a debtor defaulting on a loan",
+    "time_to_complete_min": 180,
+    "tags": [
+        "machine-learning",
+        "classification",
+        "python",
+        "pandas"
+    ]
+}
