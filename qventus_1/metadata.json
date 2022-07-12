@@ -1,0 +1,12 @@
+{
+    "name": "Whiteboard SQL and Storytelling",
+    "company": "Qventus",
+    "position": "Data Scientist",
+    "description": "Complete two long-form challenges, to test your SQL and story telling skills",
+    "time_to_complete_min": 360,
+    "tags": [
+		"sql",
+		"business-case",
+		"analytics"
+    ]
+}
