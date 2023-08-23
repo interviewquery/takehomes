@@ -1,5 +1,4 @@
 import sqlite3
-# incorrect
 import pip
 
 # run this file first to install the required dependencies
