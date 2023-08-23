@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Items</title>
+    <style>
+        .items {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form action="/submit_order" method="POST"> <!-- The action should point to the appropriate URL to handle the form submission -->
+
+        <!-- Customer name input -->
+        <div>
+            <label for="customerName">Customer Name:</label>
+            <input type="text" id="customerName" name="customerName" required>
+        </div>
+
+        <!-- Item buttons. Add more items as needed. -->
+        <div class="items">
+            <label><input type="checkbox" name="item" value="burger"> Burger</label>
+            <label><input type="checkbox" name="item" value="fried chicken"> Fried Chicken</label>
+            <label><input type="checkbox" name="item" value="soda"> Soda</label>
+            <label><input type="checkbox" name="item" value="ice cream"> Ice Cream</label>
+        </div>
+
+        <div>
+            <input type="submit" value="Order Now">
+        </div>
+
+    </form>
+
+    <script>
+        // Reference to the form element
+        const orderForm = document.getElementById('orderForm');
+
+        // Add an event listener to the form's submit event
+        orderForm.addEventListener('submit', function(event) {
+            // Display a confirmation dialog
+            const userConfirmed = confirm('Would you like to order?');
+
+            // If the user clicks "Cancel", prevent the form from being submitted
+            if (!userConfirmed) {
+                event.preventDefault();
+            } else {
+                alert('Order submitted!');
+            }
+        });
+    </script>
+
+</body>
+
+</html>
