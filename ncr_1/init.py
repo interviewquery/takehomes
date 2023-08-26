@@ -6,7 +6,16 @@ import pip
 dependency_list = ['flask', 'ngrok', 'flask-ngrok']
 
 
+def create_ngrok_yml():
+    token = input("Enter your ngrok token: ")
+    with open("ngrok.yml", "w") as yml_file:
+        yml_file.write(f"authtoken: {token}")
+    print("ngrok.yml file has been created successfully!")
+
+
+
 def main():
+    create_ngrok_yml()
     print('Now retrieving project dependencies...')
     for dependency in dependency_list:
         print('Installing package:', dependency)
