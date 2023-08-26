@@ -16,7 +16,7 @@ def main():
     print('Now creating the database')
 
     # Connect to the database or create one if it doesn't exist
-    conn = sqlite3.connect('app/your_database.db')
+    conn = sqlite3.connect('your_database.db')
 
     query = [
         """
