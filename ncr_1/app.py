@@ -1,5 +1,4 @@
 # First, you need to install necessary packages in the Colab environment
-!pip install flask-ngrok
 
 import sqlite3
 from flask import Flask, render_template, request, g
