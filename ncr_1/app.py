@@ -1,23 +1,42 @@
 # initialize ngrok...
 
 import yaml
+import os
+import subprocess
+import sqlite3
+from flask import Flask, render_template, request, g
+from flask_ngrok import run_with_ngrok
+
+
 def get_ngrok_token_from_yml():
     with open('ngrok.yml', 'r') as yml_file:
         config = yaml.safe_load(yml_file)
         return config.get('authtoken', None)
 
-import os
+
 ngrok_token = get_ngrok_token_from_yml()
 if ngrok_token:
     os.environ['NGROK_AUTH_TOKEN'] = ngrok_token
 
 
-import sqlite3
-from flask import Flask, render_template, request, g
-from flask_ngrok import run_with_ngrok
+def set_ngrok_token(token):
+    command = f"./ngrok authtoken {token}"
+    result = subprocess.run(command.split(), capture_output=True, text=True)
+    if result.returncode == 0:
+        print("Token set successfully!")
+    else:
+        print("Failed to set token. Error:", result.stderr)
+
+
+token = get_ngrok_token_from_yml()
+if token:
+    set_ngrok_token(token)
+else:
+    print("Token not found in ngrok.yml!")
 
 app = Flask(__name__)
 run_with_ngrok(app)  # This line is added to make Flask work with ngrok
+
 
 def get_db():
     if 'db' not in g:
@@ -25,17 +44,21 @@ def get_db():
         g.db.row_factory = sqlite3.Row  # This will allow us to access rows as dictionaries
     return g.db
 
+
 def close_db(e=None):
     db = g.pop('db', None)
     if db is not None:
         db.close()
 
+
 app.teardown_appcontext(close_db)  # This ensures the database is closed after each request
+
 
 @app.route('/')
 def index():
     # You need to provide an index.html template or use a simple string instead of the render_template function
     return render_template('index.html')
+
 
 @app.route('/submit_order', methods=['POST'])
 def order_now():
@@ -68,6 +91,7 @@ def order_now():
 
     except sqlite3.Error as e:
         return f"<h1>Error submitting order: {str(e)}</h1>"
+
 
 if __name__ == "__main__":
     app.run()
