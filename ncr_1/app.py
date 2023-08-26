@@ -1,4 +1,16 @@
-# First, you need to install necessary packages in the Colab environment
+# initialize ngrok...
+
+import yaml
+def get_ngrok_token_from_yml():
+    with open('ngrok.yml', 'r') as yml_file:
+        config = yaml.safe_load(yml_file)
+        return config.get('authtoken', None)
+
+import os
+ngrok_token = get_ngrok_token_from_yml()
+if ngrok_token:
+    os.environ['NGROK_AUTH_TOKEN'] = ngrok_token
+
 
 import sqlite3
 from flask import Flask, render_template, request, g
