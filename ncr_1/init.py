@@ -3,7 +3,7 @@ import pip
 
 # run this file first to install the required dependencies
 
-dependency_list = ['flask', 'ngrok']
+dependency_list = ['flask', 'ngrok', 'flask-ngrok']
 
 
 def main():
