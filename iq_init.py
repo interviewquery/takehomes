@@ -1,6 +1,8 @@
 import sqlite3 as sql
 import context
 import csv
+import sys
+sys.path.append('/content/takehomes')
 
 __implicit__conn__ = sql.connect(context.generate_path('iq.db'))
 __module__conn__ = __implicit__conn__
