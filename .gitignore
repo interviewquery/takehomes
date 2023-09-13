@@ -1,2 +1,5 @@
 
 segment_1/takehomefile.ipynb
+.idea
+__pycache__
+iq.db
