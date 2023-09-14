@@ -85,7 +85,7 @@ def load_all():
     result = __implicit__conn__.execute('SELECT 1 from customers')
     if result.fetchone() is None:
         print('[IQ Environment] Data is not loaded. Now loading data.')
-        with open('sales.csv', 'r') as file:
+        with open('takehomes/sales.csv', 'r') as file:
             reader = csv.reader(file)
             next(reader)  # skip the header row
 
